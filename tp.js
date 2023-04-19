@@ -38,9 +38,9 @@ document.addEventListener('DOMContentLoaded', function(){
                 required: 'Por favor ingrese su email',
                 email: 'Por favor ingrese un email valido'
             },
-            servicio: 'Por favor especifique que servicio quiere cotizar'
+            servicio:'Por favor especifique que servicio quiere cotizar'
         },
-        submitHandler: function(form) {
+        submitHandler: function() {
             //obtengo los valores del formulario
             var nombre = $('#nombre').val();
             var email = $('#email').val();
@@ -60,10 +60,11 @@ document.addEventListener('DOMContentLoaded', function(){
                 console.log('Exito', response);
                 alert('Su peticion fue enviada con exito!');
               },
-              error: function(xhr, status, error){
+              error: function(error){
                 console.log('error', error);
                 alert('Error al enviar la peticion.Intentelo nuevamente');
 
+              
               }
 
             })
