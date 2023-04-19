@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#f6f6f6 !important;
+  }
+  
+  header {
+    background-color: #3a3939;
+    width: auto;
+    height:fit-content;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 50px;
+    display:flex;
+    margin-left: auto;
+    
+    
+  }
+  
+  nav ul li {
+    margin: 5px 10px;
+  }
+  
+  nav ul li a {
+    color:#fff !important;
+    text-decoration: none;
+    
+  }
+
+  
+  .hero {
+    background-image: url(img/cnc.jpg) ;
+    background-size: 100% auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align:right;
+    color: #fff;
+    
+    
+  }
+  
+  .boton-cta {
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+  } 
+ 
+  .nosotros {
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+  }
+ 
+  .nosotros-img {
+    margin: 30px;
+    top: 20px;
+  }
+  
+  .nosotros-texto {
+    flex-grow: 2;
+    border: solid 1px;
+    padding:30px; 
+  }
+  
+  .servicios {
+    padding: 50px;
+  }
+  
+  .servicios h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .servicios-grid {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+  }
+  
+  .servicios-item {
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+  }
+  
+  .servicios-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .servicios-item h3 {
+    margin: 20px 0 10px;
+  }
+  
+  .servicios-item p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+
+
+  #nuestros-servicios, #contenido, #contacto, #formulario-reclamo{
+    padding: 50px;
+    border: solid 2px rgb(91, 108, 124);
+  }
+
+  form {
+    padding: 50px;
+    background-color: #f6f6f6;
+   
+  }
+  
+  input, textarea {
+    display:list-item;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+    bottom: 20px;
+  }
+  
+  input[type="submit"], button {
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 200px;
+  }
+
+ 
