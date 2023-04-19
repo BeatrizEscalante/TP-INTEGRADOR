@@ -16,7 +16,12 @@ function generarPDF() {
     doc.text(20, 60, 'Reclamo: ' + reclamo1);
     doc.text(20, 70, 'Gracias por su tiempo. Le responderemos lo antes posible')
 
+    //Crear un mensaje de alerta con el resumen del formulario
     
+   
+var resumen = 'Nombre: ' + nombre1 + '\n' +'Apellido: ' + apellido1 + '\n' + 'Email: ' + email1 + '\n' +'Reclamo: ' + reclamo1 + '\n\n' +'Gracias por su tiempo. Le responderemos lo antes posible.';
+            window.alert(resumen);
+            
     //Guardar el PDF como archivo 
     doc.save('reclamo.pdf');
 
