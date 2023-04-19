@@ -146,5 +146,9 @@ body {
     cursor: pointer;
     width: 200px;
   }
-
+footer{
+  background-color: #3a3939 !important;
+  text-align: center;
+  color: #fff;
+}
  
